@@ -1,0 +1,5 @@
+if(EXISTS "/Volumes/MacData/Coding/C++/Logger/build/Logger[1]_tests.cmake")
+  include("/Volumes/MacData/Coding/C++/Logger/build/Logger[1]_tests.cmake")
+else()
+  add_test(Logger_NOT_BUILT Logger_NOT_BUILT)
+endif()
